@@ -27,7 +27,7 @@ def detect_speech():
         print("Error memroses permintaan:", str(e))
 
 def get_weather():
-    api_key = "b28bac52f9bb9f3336e08e625447a4fb"  # Ganti dengan API key Anda dari OpenWeatherMap
+    api_key = ""  # Ganti dengan API key Anda dari OpenWeatherMap
     lat = "-6.898161107508915"  # Ganti dengan latitude koordinat yang diinginkan
     lon = "107.63491749929597"  # Ganti dengan longitude koordinat yang diinginkan
     lang = "id"
